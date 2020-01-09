@@ -6,17 +6,23 @@
     </head>
     <body>
         <div id="NLP">
-            Hello
+               <span style="color:cyan">Hello</span>
         </div>
     </body>
 
     <script>
-/*
+        
+        function TextAdder(text){
+        
+            document.getElementById("NLP").innerHTML = text;
+            
+        }
+        
         fetch("https://reqres.in//api/users")
         .then(res => res.text())
-        .then(data => console.log(data))
-        .catch(error => console.log(error))
-*/
+        .then(data => TextAdder(data))
+        .catch(error => TextAdder(error))
+
         
     </script>
 
