@@ -19,7 +19,7 @@
             
         }
         
-        fetch("https://reqres.in///api//users?page=2")
+        fetch("https://reqres.in/api/users?page=2")
         .then(res => res.text())
         .then(data => TextAdder(data))
         .catch(error => TextAdder(error))
