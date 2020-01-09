@@ -14,16 +14,20 @@
         
         function TextAdder(txt){
             
-            $("#NLP").html(txt);
-            $("#NLP").append("<h1>Meow</h1>");
+            $("#NLP").append(txt);
+          //  $("#NLP").append("<h1>Meow</h1>");
             
         }
         
+        var tt = setInterval(
+        ()=>{
         fetch("https://jsonplaceholder.typicode.com/todos/1")
         .then(res => res.json())
         .then(data => TextAdder(JSON.stringify(data)))
         .catch(error => TextAdder(error))
+        },3000);
 
+     //   clearInterval(tt);
         
     </script>
 
