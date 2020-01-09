@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+    </head>
+    <body>
+        <ul></ul>
+    </body>
+
+    <script>
+
+        fetch("https://reqres.in//api/users")
+        .then(res => res.text())
+        .then(data => console.log(data))
+        .catch(error => console.log(error))
+
+    </script>
+
+</html>
