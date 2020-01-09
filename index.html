@@ -19,9 +19,9 @@
             
         }
         
-        fetch("https://reqres.in/api/users?page=2")
-        .then(res => res.text())
-        .then(data => TextAdder(data))
+        fetch("https://jsonplaceholder.typicode.com/todos/1")
+        .then(res => res.json())
+        .then(data => TextAdder(JSON.stringify(data)))
         .catch(error => TextAdder(error))
 
         
