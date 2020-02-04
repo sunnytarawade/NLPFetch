@@ -4,7 +4,7 @@
 
 #Change the values of these variables as you wish
 
-location="Pakistan" # Where is the image being sent from
+location="Mumbai" # Where is the image being sent from
 imgURL="/home/sunny/Pictures/Sample.jpg" # Directory path to the image
 serverurl="https://nli-1.herokuapp.com/images/" # Endpoint of the api where the image is to be sent
 
