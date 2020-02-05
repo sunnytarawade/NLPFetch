@@ -1,6 +1,10 @@
 # Save the image to Master/images directory
 
-imgName="./images/pizza1.jpeg"
+
+
+imgName="./images/pizza2.jpeg"
+
+git remote set-url origin https://sunnytarawade:Vadyawali1!@github.com/NLPFetch.git
 
 git add .
 
