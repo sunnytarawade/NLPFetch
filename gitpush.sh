@@ -4,7 +4,7 @@
 
 imgName="./images/pizza2.jpeg"
 
-git remote set-url origin https://sunnytarawade:Vadyawali1!@github.com/NLPFetch.git
+git remote set-url origin git@github.com:sunnytarawade/NLPFetch.git
 
 git add .
 
