@@ -10,4 +10,4 @@ git add .
 
 git commit -m "$imgName added (Test)"
 
- git push https://sunnytarawade:Vadyawali1!@NLPFetch.biz/file.git --all 
+git push
