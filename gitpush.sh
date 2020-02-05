@@ -10,4 +10,4 @@ git add .
 
 git commit -m "$imgName added (Test)"
 
-git push origin master
+git push
