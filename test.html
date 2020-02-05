@@ -18,15 +18,14 @@
 <body>
     
     <div id="img-div">
-        <img src="./images/pizza2.jpeg">
-        <img src="./images/pizza5.jpeg">
+        
     </div>
 
     <script>
         
     </script>
     
-    <!--script>
+    <script>
 
         $("document").ready(() => { 
             $.get("https://nli-1.herokuapp.com/images/")
@@ -42,7 +41,8 @@
                     console.log(fpro);
 
                     var newimg = document.createElement("IMG");
-                    newimg.src = endpoint + fpro.replace(/\"/g,'');
+                    //newimg.src = endpoint + fpro.replace(/\"/g,'');
+                    newimg.src = "https://github.com/sunnytarawade/NLPFetch/edit/master/images/pizza5.jpeg"
                     $("#img-div").append(newimg);
                 }
                  
@@ -55,7 +55,7 @@
             
          });
 
-    </script-->
+    </script>
 
 </body>
 </html>
