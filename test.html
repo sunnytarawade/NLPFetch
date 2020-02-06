@@ -18,10 +18,18 @@
 <body>
     
     <div id="img-div">
+<<<<<<< HEAD
 	<img src="./images/pizza5.jpeg"/>
 	<img src="./images/pizza2.jpeg"/>
+=======
+        
+>>>>>>> 78aef6e3908af79ad76cc1c939eb8e9b43137c23
     </div>
 
+    <script>
+        
+    </script>
+    
     <script>
 
         $("document").ready(() => { 
@@ -38,7 +46,8 @@
                     console.log(fpro);
 
                     var newimg = document.createElement("IMG");
-                    newimg.src = endpoint + fpro.replace(/\"/g,'');
+                    //newimg.src = endpoint + fpro.replace(/\"/g,'');
+                    newimg.src = "./images/pizza5.jpeg"
                     $("#img-div").append(newimg);
                 }
                  
