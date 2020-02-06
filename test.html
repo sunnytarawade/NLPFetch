@@ -18,21 +18,12 @@
 <body>
     
     <div id="img-div">
-<<<<<<< HEAD
-	<img src="./images/pizza5.jpeg"/>
-	<img src="./images/pizza2.jpeg"/>
-=======
-        
->>>>>>> 78aef6e3908af79ad76cc1c939eb8e9b43137c23
-    </div>
+
+    </div>                                         
 
     <script>
-        
-    </script>
-    
-    <!--script>
 
-        $("document").ready(() => { 
+       $("document").ready(() => { 
             $.get("https://nli-1.herokuapp.com/images/")
             .then((res) => { 
                 return res.products
@@ -44,23 +35,19 @@
                 {
                     var fpro = JSON.stringify(pro.imgURL);
                     console.log(fpro);
-
                     var newimg = document.createElement("IMG");
-                    //newimg.src = endpoint + fpro.replace(/\"/g,'');
-                    newimg.src = "./images/pizza5.jpeg"
+                    newimg.src = endpoint + fpro.replace(/\"/g,'');
                     $("#img-div").append(newimg);
                 }
                  
               })
-
-
              .catch((err) => { 
                  console.log(err)
               })
             
          });
 
-    </script-->
+    </script>
 
 </body>
 </html>
