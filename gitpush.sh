@@ -6,6 +6,8 @@ imgName="./images/pizza5.jpeg"
 
 #git remote set-url origin git@github.com:sunnytarawade/NLPFetch.git
 
+git pull
+
 git add .
 
 git commit -m "$imgName added (Test)"
