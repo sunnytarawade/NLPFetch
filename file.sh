@@ -1,52 +1,21 @@
-#!/bin/sh
+# Save the image to Master/images directory
 
-file="/home/sunny/NLPFetch/file.sh"
 
-if [ -r $file ]
-then
-   echo "File has read access"
-else
-   echo "File does not have read access"
-fi
+imgName="pizza1.jpeg"
+location="M1"
 
-if [ -w $file ]
-then
-   echo "File has write permission"
-else
-   echo "File does not have write permission"
-fi
+jsImgObjectsFile="data.js"
 
-if [ -x $file ]
-then
-   echo "File has execute permission"
-else
-   echo "File does not have execute permission"
-fi
+#git remote set-url origin git@github.com:sunnytarawade/NLPFetch.git
 
-if [ -f $file ]
-then
-   echo "File is an ordinary file"
-else
-   echo "This is sepcial file"
-fi
+git pull
 
-if [ -d $file ]
-then
-   echo "File is a directory"
-else
-   echo "This is not a directory"
-fi
+sed -i "$ s/}/,\n\t{\n\t\timgName\:'$imgName',\n\t\tlocation:'$location'\n\t}\n}/" $jsImgObjectsFile
 
-if [ -s $file ]
-then
-   echo "File size is not zero"
-else
-   echo "File size is zero"
-fi
+git add .
 
-if [ -e $file ]
-then
-   echo "File exists"
-else
-   echo "File does not exist"
-fi
+git commit -m "$imgName added (Test)"
+
+git push
+
+

@@ -1,0 +1,21 @@
+{
+	{
+		imgName:"$imgName",
+		location:"$imgName"
+	}
+,
+	{
+		imgName:"$imgName",
+		location:"$imgName"
+	}
+,
+	{
+		imgName:'pizza1.jpeg',
+		location:'M1'
+	}
+,
+	{
+		imgName:'pizza1.jpeg',
+		location:'M1'
+	}
+}
