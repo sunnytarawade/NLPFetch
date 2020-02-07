@@ -18,4 +18,8 @@ let imgDict = {
 	'coffee2.jpeg' : {
 		'location':'C2'
 	}
+,
+	'coffee1.jpeg' : {
+		'location':'C1'
+	}
 }
