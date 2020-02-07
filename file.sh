@@ -10,7 +10,7 @@ jsImgObjectsFile="data.js"
 
 git pull
 
-sed -i "$ s/}/,\n\t{\n\t\timgName\:'$imgName',\n\t\tlocation:'$location'\n\t}\n}/" $jsImgObjectsFile
+sed -i "$ s/}/,\n\t'$imgName' : {\n\t\tlocation:'$location'\n\t}\n}/" $jsImgObjectsFile
 
 git add .
 

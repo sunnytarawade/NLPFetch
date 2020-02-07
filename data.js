@@ -12,8 +12,7 @@ let imgDict = {
 	}
 
 ,
-	{
-		imgName:'pizza3.jpeg',
+	'pizza3.jpeg' : {
 		location:'M1'
 	}
 }
