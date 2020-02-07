@@ -19,4 +19,8 @@ let imgDict = {
 	'pizza5.jpeg' : {
 		location:'M2'
 	}
+,
+	'pizza5.jpeg' : {
+		'location':'M2'
+	}
 }
