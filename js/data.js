@@ -5,8 +5,9 @@ let imgDict = {
 	'pizza1.jpeg' : {
 		'location':'P1'
 	}
+
 ,
-	'pizza5.jpeg' : {
-		'location':'M2'
+	'pizza2.jpeg' : {
+		'location':'P2'
 	}
 }
