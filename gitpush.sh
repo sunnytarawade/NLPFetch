@@ -1,8 +1,8 @@
 # Save the image to Master/images directory
 
 
-imgName="pizza5.jpeg"
-location="M2"
+imgName="coffee3.jpeg"
+location="C3"
 
 jsImgObjectsFile="./js/data.js"
 
