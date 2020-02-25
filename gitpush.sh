@@ -1,7 +1,7 @@
 # Save the image to Master/images directory
 
 
-imgName="index.jpeg"
+imgName="icecream.jpeg"
 location="C1"
 
 jsImgObjectsFile="./js/data.js"
