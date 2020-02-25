@@ -22,22 +22,7 @@ let imgDict = {
 	'coffee1.jpeg' : {
 		'location':'C1'
 	}
-,
-	'coffee1.jpeg' : {
-		'location':'C1'
-	}
-,
-	'coffee1.jpeg' : {
-		'location':'C1'
-	}
-,
-	'coffee1.jpeg' : {
-		'location':'C1'
-	}
-,
-	'coffee1.jpeg' : {
-		'location':'C1'
-	}
+
 ,
 	'index.jpeg' : {
 		'location':'C1'
